@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>High-Pay Bank</title>
+
+  <!-- Material Icons (quick, convenient) -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+  <!-- local CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Splash Screen -->
+  <section id="splash-screen">
+    <div class="splash-content">
+      <div class="hp-splash">
+        <div class="hp-circle">HP</div>
+      </div>
+      <p class="slogan">Powering Your Financial Dreams</p>
+      <p class="licensing">Licensed by CBN | Insured by NDIC</p>
+    </div>
+  </section>
+
+  <!-- Main Homepage (hidden until splash finishes) -->
+  <main id="homepage" style="display:none;">
+
+    <!-- Fixed Header -->
+    <header class="header">
+      <div class="left">
+        <div class="hp-badge">HP</div>
+        <span class="tier">Tier 2</span>
+        <span class="greeting">Hi, Highness</span>
+      </div>
+
+      <div class="right">
+         <div class="help"><i class="fa-solid fa-headset"></i><span> Help</span></div>
+
+
+         <div class="qr"><i class="fa-solid fa-qrcode"></i></div>
+
+
+          <div class="bell"><i class="fa-solid fa-bell"></i><span class="notif-count">3</span></div>
+
+      </div>
+    </header>
+
+    <!-- Available Balance Section -->
+    <section class="balance-section">
+   <div class="balance-left">
+  <span>Available Balance</span>
+  <i class="fa-solid fa-eye eye"></i>
+  <p class="amount">₦1,000,000</p>
+</div>
+
+      <div class="balance-right">
+        <span class="label">Transaction History</span>
+        <button class="add-money">+ Add Money</button>
+      </div>
+    </section>
+
+    <!-- Key Actions Section -->
+    <section class="key-actions">
+      <button class="action">
+        <span class="material-icons action-icon">person_add</span>
+        <span class="action-label">To High-Pay</span>
+      </button>
+
+      <button class="action">
+        <span class="material-icons action-icon">account_balance</span>
+        <span class="action-label">To Bank</span>
+      </button>
+
+      <button class="action">
+        <span class="material-icons action-icon">swap_horiz</span>
+        <span class="action-label">Withdraw</span>
+      </button>
+    </section>
+
+    <!-- Services Grid -->
+<!-- Services Grid -->
+<section class="services-grid">
+  <div class="service"><i class="fa-solid fa-signal"></i><p>Airtime</p></div>
+  <div class="service"><i class="fa-solid fa-wifi"></i><p>Data</p></div>
+  <div class="service"><i class="fa-solid fa-futbol"></i><p>Betting</p></div>
+  <div class="service"><i class="fa-solid fa-tv"></i><p>TV</p></div>
+  <div class="service"><i class="fa-solid fa-piggy-bank"></i><p>Savings</p></div>
+  <div class="service"><i class="fa-solid fa-hand-holding-dollar"></i><p>Borrow Now</p></div>
+  <div class="service"><i class="fa-solid fa-dice"></i><p>Try Your Luck</p></div>
+  <div class="service"><i class="fa-solid fa-ellipsis-h"></i><p>More</p></div>
+</section>
+
+
+    <!-- Special Bonus Section -->
+    <section class="special-bonus">
+      <h3><span class="material-icons">card_giftcard</span> Special Bonus For You</h3>
+
+      <div class="carousel">
+        <div class="item">
+          <div class="item-top">
+            <span class="material-icons large">card_giftcard</span>
+          </div>
+          <h4>Claim your rewards</h4>
+          <p>Grab free coupons & cashbacks</p>
+          <button class="item-btn">Go</button>
+        </div>
+
+        <div class="item">
+          <div class="item-top">
+            <span class="material-icons large">savings</span>
+          </div>
+          <h4>Don't Miss Out</h4>
+          <p>Balance with Daily Interest & Free transfers</p>
+          <button class="item-btn">Save</button>
+        </div>
+
+        <div class="item">
+          <div class="item-top">
+            <span class="material-icons large">payments</span>
+          </div>
+          <h4>Get Daily Cashbacks</h4>
+          <p>Buy Airtime, get up to 6% cashback</p>
+          <button class="item-btn">Go</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bottom Navigation -->
+    <nav class="bottom-nav">
+  <div><i class="fa-solid fa-house"></i><p>Home</p></div>
+  <div><i class="fa-solid fa-gem"></i><p>Rewards</p></div>
+  <div><i class="fa-solid fa-chart-line"></i><p>Finance</p></div>
+  <div><i class="fa-solid fa-credit-card"></i><p>Card</p></div>
+  <div><i class="fa-solid fa-user"></i><p>Me</p></div>
+</nav>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>High-Pay. Copyright © All Rights Reserved.</p>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
